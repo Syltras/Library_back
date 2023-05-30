@@ -1,4 +1,4 @@
-const MY_SERVER = "http://127.0.0.1:5000";
+const MY_SERVER = "https://pylibraryback.onrender.com";
 
 const loadData = async () => {
   const booksResponse = await axios.get(`${MY_SERVER}/books`);
